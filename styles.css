@@ -1,0 +1,63 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(#1b1d2e, #10111a);
+  color: #e7ebff;
+}
+
+.wrapper {
+  display: grid;
+  gap: 0.75rem;
+  justify-items: center;
+  width: min(95vw, 500px);
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.instructions {
+  margin: 0;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #cdd3ff;
+}
+
+canvas {
+  border: 2px solid #7f89ff;
+  border-radius: 12px;
+  background: radial-gradient(circle at 50% 0%, #2d3359 0%, #161a2f 45%, #0c0f1f 100%);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.45);
+}
+
+.hud {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#score {
+  font-weight: 600;
+}
+
+button {
+  border: none;
+  border-radius: 999px;
+  background: #7f89ff;
+  color: white;
+  padding: 0.45rem 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #959dff;
+}

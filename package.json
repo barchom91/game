@@ -1,0 +1,9 @@
+{
+  "name": "rising-platform-jumper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple platform jumper game with rising screen.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

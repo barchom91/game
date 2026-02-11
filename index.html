@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rising Platform Jumper</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrapper">
+    <h1>Rising Platform Jumper</h1>
+    <p class="instructions">Use <strong>←</strong> and <strong>→</strong> to move. Land on platforms while the world rises faster over time. If the player touches the bottom edge, the game is over.</p>
+    <canvas id="game" width="420" height="640" aria-label="Platform jumper game" role="img"></canvas>
+    <div class="hud">
+      <span id="score">Score: 0</span>
+      <button id="restart" hidden>Restart</button>
+    </div>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
